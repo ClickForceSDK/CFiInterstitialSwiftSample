@@ -35,4 +35,17 @@ extension ViewController:MFInterstitialViewDelegate{
         
         fullbanner?.show();
     }
+    
+    func onRequestItstAdFail() {
+        
+        print("請求廣告失敗")
+    }
+    
+    func onClickItst()  {
+        
+    }
+    
+    func onCloseItst()  {
+        
+    }
 }
