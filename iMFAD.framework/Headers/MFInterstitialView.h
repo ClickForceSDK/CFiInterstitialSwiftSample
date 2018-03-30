@@ -21,6 +21,8 @@
 
 - (void)onCloseItst;
 
+- (void)onNotCloseBtnItst:(UIView *)adInterstitialView;
+
 @end
 
 
@@ -29,6 +31,9 @@
 @property (nonatomic, copy) NSString *bannerId;
 @property(nonatomic, assign)UIViewController *rootViewController;
 @property(nonatomic, assign)id<MFInterstitialViewDelegate>delegate;
+
+#pragma mark 取得MFInterstitial物件
+- (id)initWithGpoint:(CGPoint)origin;
 
 #pragma mark 開始取得全版廣告
 - (void)requestFullScreenAD;

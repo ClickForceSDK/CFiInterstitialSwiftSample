@@ -48,4 +48,8 @@ extension ViewController:MFInterstitialViewDelegate{
     func onCloseItst()  {
         
     }
+    
+    func onNotCloseBtnItst(_ adInterstitialView: UIView!) {
+        self.view.addSubview(adInterstitialView);
+    }
 }

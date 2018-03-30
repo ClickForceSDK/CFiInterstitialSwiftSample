@@ -66,8 +66,8 @@ CGSize MFCGSizeFromGADAdSize(MFAdSize size);
 #pragma mark 顯示取得廣告
 - (void)show;
 
-#pragma mark 設定廣告是否自動更新. (0秒為不自動更新)
-- (void)setAdAutoRefreshTime:(int)autoRefreshTime;
+#pragma mark 設定廣告是否自動更新
+- (void)setAdAutoRefresh:(BOOL)state;
 
 
 #pragma mark - 設定背景顏色
