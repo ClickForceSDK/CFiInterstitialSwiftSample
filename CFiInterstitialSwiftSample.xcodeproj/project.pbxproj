@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		221AE517206DE57B0055DD1A /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221AE516206DE57B0055DD1A /* iMFAD.framework */; };
+		2218141420B6C52600637490 /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2218141320B6C52600637490 /* iMFAD.framework */; };
 		228393201F67C273000C4692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2283931F1F67C273000C4692 /* AppDelegate.swift */; };
 		228393221F67C273000C4692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228393211F67C273000C4692 /* ViewController.swift */; };
 		228393251F67C273000C4692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228393231F67C273000C4692 /* Main.storyboard */; };
@@ -49,7 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		221AE516206DE57B0055DD1A /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
+		2218141320B6C52600637490 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
 		2283931C1F67C273000C4692 /* CFiInterstitialSwiftSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFiInterstitialSwiftSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2283931F1F67C273000C4692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		228393211F67C273000C4692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				221AE517206DE57B0055DD1A /* iMFAD.framework in Frameworks */,
+				2218141420B6C52600637490 /* iMFAD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,7 @@
 		228393131F67C273000C4692 = {
 			isa = PBXGroup;
 			children = (
-				221AE516206DE57B0055DD1A /* iMFAD.framework */,
+				2218141320B6C52600637490 /* iMFAD.framework */,
 				2283931E1F67C273000C4692 /* CFiInterstitialSwiftSample */,
 				228393361F67C273000C4692 /* CFiInterstitialSwiftSampleTests */,
 				228393411F67C274000C4692 /* CFiInterstitialSwiftSampleUITests */,
